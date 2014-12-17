@@ -12,9 +12,15 @@
             "homepage": "http://clorophilla.net"
         }
     ],
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/blocktrail/predis"
+        }
+    ],
     "require": {
         "php": ">=5.4.0",
-        "predis/predis": "~1.0",
+        "predis/predis": "dev-blocktrail",
         "react/event-loop": "0.4.*",
         "clue/redis-protocol": "0.3.*"
     },
